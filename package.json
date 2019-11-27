@@ -1,0 +1,24 @@
+{
+  "name": "local-speed-test-app",
+  "version": "1.0.0",
+  "description": "App to easy test web performance in the browser for rendered html files",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-modules index.mjs",
+    "nodemon": "nodemon -e js,mjs,html --experimental-modules index.mjs"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1",
+    "prettier": "^1.19.1"
+  }
+}
